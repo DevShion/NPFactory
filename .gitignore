@@ -3,5 +3,5 @@ node_modules
 .npmrc
 .code-workspace
 windows-push.sh
-module
-cjs
+# module
+# cjs

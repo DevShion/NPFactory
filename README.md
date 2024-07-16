@@ -2,7 +2,7 @@
 
 [Thanks to](https://github.com/azu/tsconfig-to-dual-package)
 
-dual? => common js & esm
+what does **dual** mean? => **CommonJS** & **ESM**
 
 ## Install
 
