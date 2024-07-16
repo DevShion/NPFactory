@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        // "module": "NodeNext",
+        // "moduleResolution": "NodeNext",
+        "module": "commonjs",
+        "target": "es2022",
+        "esModuleInterop": true,
+        "newLine": "crlf",
+        "outDir": "./module/", // <= Output ESM to `module` directory
+        // "target": "ES2018",
+        "strict": true
+    },
+    "include": [
+        "**/*"
+    ]
+}
