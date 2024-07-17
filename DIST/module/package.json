@@ -1,6 +1,6 @@
 {
   "name": "@devshion/npm-dual-package-template",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "type": "commonjs",
   "scripts": {
     "build": "tsc -p ./tsconfig.json && tsc -p ./tsconfig.cjs.json && tsconfig-to-dual-package"

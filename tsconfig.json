@@ -6,7 +6,7 @@
         "target": "es2022",
         "esModuleInterop": true,
         "newLine": "crlf",
-        "outDir": "./module/", // <= Output ESM to `module` directory
+        "outDir": "./DIST/module/", // <= Output ESM to `module` directory
         // "target": "ES2018",
         "strict": true
     },

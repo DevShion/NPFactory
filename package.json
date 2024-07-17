@@ -1,10 +1,10 @@
 {
     "name": "@devshion/npm-dual-package-template",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "type": "module",
     "main": "./main/index.js",
     "types": "./index.ts",
-    "module": "./module/index.js",
+    "module": "./DIST/module/index.js",
     "scripts": {
         "build": "tsc -p ./tsconfig.json && tsc -p ./tsconfig.cjs.json && tsconfig-to-dual-package"
     },
@@ -12,15 +12,15 @@
         ".": {
             "import": {
                 "types": "./index.ts",
-                "default": "./module/index.js"
+                "default": "./DIST/module/index.js"
             },
             "require": {
                 "types": "./index.ts",
-                "default": "./cjs/index.js"
+                "default": "./DIST/cjs/index.js"
             },
             "default": {
                 "types": "./index.ts",
-                "default": "./cjs/index.js"
+                "default": "./DIST/cjs/index.js"
             }
         }
     },
