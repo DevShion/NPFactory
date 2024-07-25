@@ -9,7 +9,7 @@ what does **dual** mean? => **CommonJS** & **ESM**
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/DevShion/npm-dual-package-template.git YOUR_PROJECT_NAME
+git clone https://github.com/DevShion/npfactory.git YOUR_PROJECT_NAME
 cd YOUR_PROJECT_NAME
 npm install
 ```

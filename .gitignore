@@ -1,7 +1,3 @@
 node_modules
 *.old
 .npmrc
-.code-workspace
-windows-push.sh
-# module
-# cjs

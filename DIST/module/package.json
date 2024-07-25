@@ -1,16 +1,16 @@
 {
-  "name": "@devshion/npm-dual-package-template",
-  "version": "1.0.2",
+  "name": "@devshion/npfactory",
+  "version": "1.0.0",
   "type": "commonjs",
   "scripts": {
-    "build": "tsc -p ./tsconfig.json && tsc -p ./tsconfig.cjs.json && tsconfig-to-dual-package"
+    "build": "rm -rf ./DIST/cjs ./DIST/module && tsc -p ./tsconfig.json && tsc -p ./tsconfig.cjs.json && tsconfig-to-dual-package"
   },
   "devDependencies": {
     "tsconfig-to-dual-package": "^1.2.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DevShion/npm-dual-package-template"
+    "url": "https://github.com/DevShion/npfactory"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
