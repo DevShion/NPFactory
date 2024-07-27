@@ -1,6 +1,6 @@
 {
-  "name": "@devshion/npfactory",
-  "version": "1.0.0",
+  "name": "@devshion/datarch",
+  "version": "1.0.4",
   "type": "commonjs",
   "scripts": {
     "build": "rm -rf ./DIST/cjs ./DIST/module && tsc -p ./tsconfig.json && tsc -p ./tsconfig.cjs.json && tsconfig-to-dual-package"
@@ -10,9 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DevShion/npfactory"
+    "url": "https://github.com/DevShion/datarch"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.17.7",
+    "@types/uuid": "^10.0.0",
+    "axios": "^1.7.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.13.0",
+    "uuid": "^10.0.0",
+    "zod": "^3.23.8"
   }
 }

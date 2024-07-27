@@ -1,5 +1,4 @@
 "use strict";
-// import your files here!
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     var desc = Object.getOwnPropertyDescriptor(m, k);
@@ -23,16 +22,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
     __setModuleDefault(result, mod);
     return result;
 };
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Client = exports.Fusion = exports.Functions = exports.Method = exports.Collection = void 0;
-var Collection_1 = require("./SRC/Collection");
-Object.defineProperty(exports, "Collection", { enumerable: true, get: function () { return __importDefault(Collection_1).default; } });
-var Method_1 = require("./SRC/Method");
-Object.defineProperty(exports, "Method", { enumerable: true, get: function () { return __importDefault(Method_1).default; } });
-exports.Functions = __importStar(require("./SRC/Functions"));
-exports.Fusion = __importStar(require("./SRC/Fusion"));
-var Client_1 = require("./SRC/Client");
-Object.defineProperty(exports, "Client", { enumerable: true, get: function () { return __importDefault(Client_1).default; } });
+exports.zod = exports.mongoose = void 0;
+exports.mongoose = __importStar(require("./mongoose"));
+exports.zod = __importStar(require("./zod"));
