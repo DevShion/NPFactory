@@ -1,3 +1,3 @@
 git add .
-git commit -m "$(git status --porcelain)"
+git commit -m "comment"
 git push origin main
